@@ -29,7 +29,7 @@ Sys.setlocale("LC_TIME","C")
 ##### Plot 1 Start #####
 
 ## Save the plot to a PNG file
-png(filename="plot1.png",width=480,height=480, units="px")
+png(filename="Plot1.png",width=480,height=480, units="px")
 hist(myData$Global_active_power, col="red" , main="Global Active Power", xlab="Global Active Power (kilowatts)")
 
 dev.off() # This is a necessary call to close the png device
